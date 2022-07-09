@@ -1,0 +1,7 @@
+kind: ConfigMap 
+apiVersion: v1 
+metadata:
+  name: report-configmap 
+data:
+  first_name: {{ .Values.first_name}}
+  last_name: {{ .Values.last_name}}

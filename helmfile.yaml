@@ -1,0 +1,4 @@
+releases:
+- name: simple-chart
+  namespace: staging
+  chart: ./simple-chart
